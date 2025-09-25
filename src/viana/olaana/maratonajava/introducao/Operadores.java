@@ -22,7 +22,7 @@ public class Operadores {
         System.out.println(dezDiferenteQueVinte);
 
         int idade = 28;
-        float salario = 3500;
+        float salario = 3500F;
         boolean salarioDentroDaLeiMaiorQueTrinta = idade>30 && salario>=4600;
         boolean salarioDentroDaLeiMenorQueTrinta = idade<30 && salario>=3300;
         System.out.println(salarioDentroDaLeiMaiorQueTrinta);
@@ -44,8 +44,10 @@ public class Operadores {
         
         int contador=0;
         contador+= 1;
-        contador--= 1;
-        contador++= 1;
+        contador--;
+        contador++;
+        --contador;
+        ++contador;
         System.out.println(contador);
     }
 }
