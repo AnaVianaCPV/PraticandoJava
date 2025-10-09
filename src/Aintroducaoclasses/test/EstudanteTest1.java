@@ -1,6 +1,6 @@
-package introduçãoclasses.test;
+package Aintroducaoclasses.test;
 
-import introduçãoclasses.domain.Estudante;
+import Aintroducaoclasses.domain.Estudante;
 
 public class EstudanteTest1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package introduçãoclasses.domain;
+package Aintroducaoclasses.domain;
 
 public class Professor {
    public String nome;
