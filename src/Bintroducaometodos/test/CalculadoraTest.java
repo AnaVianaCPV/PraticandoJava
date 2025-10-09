@@ -9,5 +9,7 @@ public class CalculadoraTest {
 
         System.out.println("Finalizando");
 
+        calculadora.subtrairDoisNumeros();
+
     }
 }
