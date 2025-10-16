@@ -40,9 +40,6 @@ public class Funcionario {
     public void setSalarios(double[] salarios){
         this.salarios=salarios;
     }
-    public void setMedia(double media){
-        this.media=media;
-    }
 
     public String getNome() {
         return nome;
