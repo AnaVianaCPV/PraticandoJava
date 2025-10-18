@@ -7,38 +7,42 @@ public class Funcionario {
     private double[] salarios;
     private double media;
 
-    public void imprime(){
-        if(salarios == null) {
+    public void imprime() {
+        if (salarios == null) {
             return;
-    }
+        }
         System.out.println(this.nome);
         System.out.println(this.idade);
 
-            for (double salario : salarios) {
-                System.out.println(salario + " ");
-            }
+        for (double salario : salarios) {
+            System.out.println(salario + " ");
+        }
 
-    imprimeMediaSalarial();
+        imprimeMediaSalarial();
     }
-   public void imprimeMediaSalarial(){
-       if(salarios == null) {
-           return;
-       }
 
-        for(double salario:salarios){
+    public void imprimeMediaSalarial() {
+        if (salarios == null) {
+            return;
+        }
+
+        for (double salario : salarios) {
             media += salario;
         }
-        media/= salarios.length;
-       System.out.println("\nMédia salarial " + media);
-   }
-    public void setNome(String nome){
-        this.nome=nome;
+        media /= salarios.length;
+        System.out.println("\nMédia salarial " + media);
     }
-    public void setIdade(int idade){
-        this.idade=idade;
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
-    public void setSalarios(double[] salarios){
-        this.salarios=salarios;
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
     }
 
     public String getNome() {
@@ -48,10 +52,12 @@ public class Funcionario {
     public int getIdade() {
         return idade;
     }
-    public double[] getSalarios(){
+
+    public double[] getSalarios() {
         return salarios;
     }
-    public double getMedia(){
+
+    public double getMedia() {
         return media;
     }
 
