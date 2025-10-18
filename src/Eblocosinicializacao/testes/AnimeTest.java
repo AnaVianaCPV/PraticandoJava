@@ -1,6 +1,6 @@
 package Eblocosinicializacao.testes;
 
-import Eblocosinicializacao.metodos.Anime;
+import Eblocosinicializacao.domain.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

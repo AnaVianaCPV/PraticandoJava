@@ -1,4 +1,4 @@
-package Fmodificadorestatico.metodos;
+package Fmodificadorestatico.domain;
 
 public class Carro {
     private String nome;

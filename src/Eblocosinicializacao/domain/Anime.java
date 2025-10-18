@@ -1,4 +1,4 @@
-package Eblocosinicializacao.metodos;
+package Eblocosinicializacao.domain;
 
 public class Anime {
     private String nome;

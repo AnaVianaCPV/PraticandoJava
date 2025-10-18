@@ -1,4 +1,4 @@
-package Csobrecargametodos.metodos;
+package Csobrecargametodos.domain;
 
 public class Anime {
     private String nome;

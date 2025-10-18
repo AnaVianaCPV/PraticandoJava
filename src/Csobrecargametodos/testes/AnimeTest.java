@@ -1,15 +1,13 @@
 package Csobrecargametodos.testes;
 
-import Csobrecargametodos.metodos.Anime;
+import Csobrecargametodos.domain.Anime;
 
 public class AnimeTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Anime anime = new Anime();
-        anime.init("Inuyasha ","Animação ",50, "Adulto", "Doze");
+        anime.init("Inuyasha ", "Animação ", 50, "Adulto", "Doze");
 
         anime.imprime();
-
-
 
 
     }

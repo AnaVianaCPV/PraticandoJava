@@ -1,6 +1,6 @@
 package Fmodificadorestatico.teste;
 
-import Fmodificadorestatico.metodos.Carro;
+import Fmodificadorestatico.domain.Carro;
 
 public class CarroTest {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
 package Bintroducaometodos.test;
 
-import Bintroducaometodos.dominio.Pessoa;
+import Bintroducaometodos.domain.Pessoa;
 
 public class PessoaTest {
-    public static void main(String[] args){
-        Pessoa pessoa= new Pessoa();
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa();
         pessoa.setNome("Ana");
         pessoa.setIdade(25);
 
