@@ -1,6 +1,6 @@
 package Bintroducaometodos.test;
 
-import Bintroducaometodos.dominio.Calculadora;
+import Bintroducaometodos.domain.Calculadora;
 
 public class CalculadoraTest {
     public static void main(String[] args) {

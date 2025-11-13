@@ -1,7 +1,7 @@
-package Bintroducaometodos.dominio;
+package Bintroducaometodos.domain;
 
 public class ImpressoraEstudante {
-    public void imprime(Estudante estudante){
+    public void imprime(Estudante estudante) {
         System.out.println("-------------");
 
         System.out.println(estudante.nome);

@@ -1,4 +1,4 @@
-package Bintroducaometodos.dominio;
+package Bintroducaometodos.domain;
 
 public class Pessoa {
     private String nome;
