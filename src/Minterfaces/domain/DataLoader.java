@@ -6,4 +6,8 @@ public interface DataLoader {
 
     void imprimir();
 
+    default void checkPermission() {
+        System.out.println("Fazendo checagem de permissões");
+    }
+
 }
